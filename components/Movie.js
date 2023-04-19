@@ -50,7 +50,7 @@ function Movie(props) {
       <img className={styles.image} src={props.poster} alt={props.title} />
       <div className={styles.textContainer}>
         <div>
-          <span className={styles.name}>{props.original_title}</span>
+          <span className={styles.name}>{props.title}</span>
           <p className={styles.description}>{props.overview}</p>
         </div>
         <div className={styles.iconContainer}>
